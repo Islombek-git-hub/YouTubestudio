@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="shortcut icon" href="img/1384060.png" type="image/x-icon">
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>You-Tube studio</title>
+</head>
+
+<body>
+   <nav class="navbar navbar-light bg-dark fixed-top">
+      <div class="container-fluid">
+         <a class="navbar-brand text-white" href="#">You Tube Studio <i class="fab fa-youtube text-danger"></i></a>
+         <button class="navbar-toggler navBtn p-1" type="button">
+            <i class="fas fa-bars text-white icon"></i>
+         </button>
+      </div>
+   </nav>
+
+   <div class="editMenu bg-dark toggle">
+
+      <form class="px-2">
+         <div class="my-3">
+            <label for="url" class="text-white fs-4">Url video</label>
+            <input type="text" class="form-control inputUrl urlInput" placeholder="Url..." id="url">
+            <label for="tittle" class="text-white fs-4 mt-2">Tittle</label>
+            <input type="text" class="form-control inputTittle tittleInput" placeholder="Tittle..." id="tittle">
+         </div>
+
+         <button class="btn btn-info text-white addBtn" type="submit">Add <i class="fas fa-plus"></i></button>
+         <button class="btn btn-success editBtn" type="submit">Edit <i class="far fa-edit"></i></button>
+      </form>
+   </div>
+
+   <div class="container">
+      <div class="row videos">
+         <!-- videos -->
+      </div>
+   </div>
+   <div class="container">
+      <button class="btn btn-dark qator_qoshish">Yana Ko'rish</button>
+   </div>
+   <div class="video_urls container">
+      <h3 class="bg-dark text-white mt-5 p-1">Ko'chirib olish uchun linklar</h3>
+      <p>https://www.youtube.com/embed/c_uaA5wUbig => <span class="fw-bold"> Munisa Rizayeva - Sekin Asta</span></p>
+      <p>https://www.youtube.com/embed/M3eM_dmYu1E => <span class="fw-bold"> Bojalar - Boyvachcha</span></p>
+      <p>https://www.youtube.com/embed/IwpDzJE4fc8 => <span class="fw-bold"> NYUSHA / НЮША - Где ты, там я</span></p>
+   </div>
+
+
+   <script src="js/videos.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>

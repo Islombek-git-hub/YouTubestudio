@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  padding-top: 77px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.editMenu {
+  width: 300px;
+  height: calc(100vh - 70px);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.toggle {
+  transform: translateX(100%);
+}
